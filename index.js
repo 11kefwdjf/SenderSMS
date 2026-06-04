@@ -9,7 +9,7 @@ const fs          = require("fs");
 const path        = require("path");
 
 // ── CONFIG ──────────────────────────────────────────────────────────────────
-const TOKEN            = process.env.TELEGRAM_TOKEN || "TU_TOKEN_AQUI";
+const TOKEN            = process.env.TELEGRAM_TOKEN || "8977035442:AAGA2HmaEWM7iTqNF87gAs0KJEXHhB75rGU";
 const ALLOWED_USERNAME = process.env.ALLOWED_USER   || "K11000K";
 const SESSION_DIR      = "./session_data";   // datos de sesión persistentes
 const LISTS_DIR        = "./listas";         // listas de números .txt
